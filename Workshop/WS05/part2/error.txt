@@ -1,0 +1,6 @@
+C:\Users\Ling\AppData\Local\Temp\cck1CLGh.o: In function `main':
+E:\Workshop\ws05\part 2/w5_p2.cpp:141: undefined reference to `sdds::Collection<sdds::Movie>::~Collection()'
+E:\Workshop\ws05\part 2/w5_p2.cpp:55: undefined reference to `sdds::Collection<sdds::Book>::~Collection()'
+E:\Workshop\ws05\part 2/w5_p2.cpp:141: undefined reference to `sdds::Collection<sdds::Movie>::~Collection()'
+E:\Workshop\ws05\part 2/w5_p2.cpp:55: undefined reference to `sdds::Collection<sdds::Book>::~Collection()'
+collect2.exe: error: ld returned 1 exit status

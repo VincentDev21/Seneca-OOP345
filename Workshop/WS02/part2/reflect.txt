@@ -1,0 +1,29 @@
+
+*****************************************************************************
+                          Workshop - #2 (P2)
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca
+Section    : NCC
+Date       : 5/28/2023
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+
+I gained knowledge about file management, object-oriented programming, and timekeeping throughout this workshop. During the workshop, 
+I noticed that by using the deep copy method when copying items causes a noticeable time difference between copy and move 
+operations. When a object is copied, When an object is copied, a "deep copy" is made, which duplicates all the data members and 
+gives them fresh memory. This procedure can take a while, especially when copying intricate data structures or huge items. 
+On the other hand, relocating an object entails giving a new object ownership of its resources, which is often quicker because 
+it does not need copying any data.
+
+Also in the workshop, I was able to read the input file while utilising file input stream operations in the TennisLog 
+constructor to fill the dynamic array. The information is going be kept in memory or a different data structure to 
+avoid reading the file again. In the workshop I was also able to experience the use fo the chrono libary.
+The chrono library includes the clock types steady_clock and system_clock.  While system_clock represents the 
+system-wide real-time clock that is impacted by system time modifications, steady_clock offers a steady and monotonic clock for precise duration measurements.
+

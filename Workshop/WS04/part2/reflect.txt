@@ -1,0 +1,41 @@
+
+*****************************************************************************
+                          Workshop - #4 (P2)
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca
+Section    : NCC
+Date       : 06/11/2023
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+During this workshop, I gained a deeper understanding of composition and aggregation relationships in object-oriented programming. 
+I also learned about using member functions of the string class to parse strings into tokens based on simple rules and how to manage 
+a dynamically allocated array of pointers to objects.
+
+Composition is a strong relationship where one class is composed of other classes, meaning the lifetime of the composed objects 
+is dependent on the lifetime of the containing object. Aggregation, on the other hand, is a looser relationship where one class 
+holds a reference or pointer to another class, but the contained objects can exist independently.
+
+In terms of implementing move and copy functions, the main difference between composition and aggregation lies in the ownership 
+and responsibility for memory management. In composition, the containing class is responsible for creating, destroying, and 
+managing the lifetime of the composed objects. In aggregation, the containing class only holds a reference or pointer to the 
+aggregated objects, and the responsibility for memory management lies outside the class.
+
+In my code, I used association, aggregation, and composition relations in different parts of the implementation. The Restaurant 
+class maintains an array of pointers to Reservation objects, representing an aggregation relationship. The ConfirmationSender 
+class also holds an array of pointers to Reservation objects, indicating an aggregation relationship. Lastly, the Reservation 
+class itself represents a composition relationship, as it owns and manages its attributes directly.
+
+Throughout the workshop, I faced some challenges, such as properly parsing the reservation information from a string and 
+correctly resizing dynamic arrays in the ConfirmationSender class. To overcome these challenges, I utilized string manipulation 
+functions like substr(), find(), and erase() to extract the necessary information.Additionally, I had to carefully manage memory 
+allocation and deallocation to ensure correct resizing and deletion of dynamically allocated arrays.
+
+Overall, this workshop provided valuable hands-on experience in working with containers and understanding the different types 
+of relationships between classes. It reinforced the importance of proper memory management and highlighted the nuances 
+between composition and aggregation.

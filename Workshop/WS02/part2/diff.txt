@@ -1,0 +1,14 @@
+In line number 105 of your output:
+The output should be:
+..........Tourney ID : 1877-540......................
+^
+But your output is: 
+==184972== Conditional jump or move depends on uninitialised value(s)
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [.] ASCII code(46)
+but you printed
+  [=] ASCII code(61)
+

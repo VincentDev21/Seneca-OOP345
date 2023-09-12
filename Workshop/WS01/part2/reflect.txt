@@ -1,0 +1,27 @@
+*****************************************************************************
+						  Workshop - #1 (P2)
+Full Name  : Vincent Le	
+Student ID#: 131117228
+Email      : vle21@myseneca.ca	
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+
+I learned about linking, storage duration, namespaces, header guards, and operating system interfaces during the workshop.
+ I effectively implemented these ideas into my code while comprehending internal and external connectivity. Only within the carads.cpp code, 
+the global variables g_taxrate and g_discount displayed internal linkage. To keep data consistent between function calls, 
+I used static variables like the counter in the show method of the Cars class. In part 2, I improved the Cars class to use 
+std::string methods to handle variable-length brands of cars. I used the rule-of-3 to guarantee correct memory management.
+
+The "constexpr" keyword, which specifies compile-time evaluatable variables or functions, was also included in the code. 
+For instance, the statement "constexpr int MAX_CARS = 100;" declares the constant MAX_CARS as having the number 100. 
+We identify it as compile-time by labelling it as "constexpr."
+
+Benefits of "constexpr" include compile-time optimisation, which might enhance efficiency, and compile-time guarantees, 
+which guarantee the value won't change during runtime. Using "constexpr" for MAX_CARS in the workshop context sets a known 
+and fixed maximum number of vehicles during compilation, optimising the code and avoiding unintentional changes at runtime.

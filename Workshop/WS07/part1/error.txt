@@ -1,0 +1,16 @@
+CrimeStatistics.cpp: In constructor 'sdds::CrimeStatistics::CrimeStatistics(std::__cxx11::string)':
+CrimeStatistics.cpp:46:65: error: no match for call to '(sdds::CrimeStatistics::CrimeStatistics(std::__cxx11::string)::<lambda(std::__cxx11::string&)>) (std::__cxx11::basic_string<char>)'
+                 crime.Province = removespaces(line.substr(0, 25));
+                                                                 ^
+CrimeStatistics.cpp:46:65: note: candidate: std::__cxx11::basic_string<char> (*)(std::__cxx11::string&) {aka std::__cxx11::basic_string<char> (*)(std::__cxx11::basic_string<char>&)} <conversion>
+CrimeStatistics.cpp:46:65: note:   conversion of argument 2 would be ill-formed:
+CrimeStatistics.cpp:46:58: error: invalid initialization of non-const reference of type 'std::__cxx11::string& {aka std::__cxx11::basic_string<char>&}' from an rvalue of type 'std::__cxx11::basic_string<char>'
+                 crime.Province = removespaces(line.substr(0, 25));
+                                               ~~~~~~~~~~~^~~~~~~
+CrimeStatistics.cpp:31:44: note: candidate: sdds::CrimeStatistics::CrimeStatistics(std::__cxx11::string)::<lambda(std::__cxx11::string&)> <near match>
+         auto removespaces = [](string &line)
+                                            ^
+CrimeStatistics.cpp:31:44: note:   conversion of argument 1 would be ill-formed:
+CrimeStatistics.cpp:46:58: error: invalid initialization of non-const reference of type 'std::__cxx11::string& {aka std::__cxx11::basic_string<char>&}' from an rvalue of type 'std::__cxx11::basic_string<char>'
+                 crime.Province = removespaces(line.substr(0, 25));
+                                               ~~~~~~~~~~~^~~~~~~
