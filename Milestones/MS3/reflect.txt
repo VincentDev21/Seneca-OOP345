@@ -1,0 +1,25 @@
+Name: Vincent Le
+Seneca Student ID: 1311117228
+Seneca email: vle21@myseneca.ca
+Date of completion: 8/05/2023
+
+I confirm that I am the only author of this file
+and the content was created entirely by me.
+
+This milestone overall have been challenging but a great learning experience. The milestone allowed me to put what I have learnt in OOP345.
+The project's aim was to simulate an assembly line with multiple stations and customer orders, guiding me through a progressive set of milestones 
+that gradually built upon each other. This holistic approach provided a comprehensive understanding of designing and implementing complex systems using object-oriented principles.
+
+Throughout the milestone, the significance of proper class design, encapsulation, and interaction became evident. 
+The emphasis on using STL algorithms and incorporating good programming practices, such as exception handling and 
+proper memory management, showcased the importance of writing clean, robust, and maintainable code.
+
+The milestone's structure, with sample outputs and tester modules, provided a solid framework for testing 
+and validating the implemented functionality. This aspect was particularly insightful, as it demonstrated 
+how to thoroughly test complex systems to ensure they meet the desired specifications.
+
+Finally, this program enhanced my grasp of practical software development while also improving my technical skills. 
+It provided a window into the difficulties developers encounter when working on such projects by bringing to life 
+the complexity required in developing and simulating sophisticated systems. Overall, the milestone was a valuable 
+learning opportunity that emphasized the significance of applying theoretical knowledge to real-world situations 
+and developing the abilities required for creating well-structured, useful software.

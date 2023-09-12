@@ -1,0 +1,70 @@
+In file included from Station.cpp:1:0:
+Station.h:9:14: error: 'string' in namespace 'std' does not name a type
+         std::string name;
+              ^~~~~~
+Station.h:10:14: error: 'string' in namespace 'std' does not name a type
+         std::string desc;
+              ^~~~~~
+Station.h:11:9: error: 'size_t' does not name a type
+         size_t serial_num;
+         ^~~~~~
+Station.h:12:9: error: 'size_t' does not name a type
+         size_t inStock;
+         ^~~~~~
+Station.h:13:16: error: 'size_t' does not name a type
+         static size_t m_widthField;
+                ^~~~~~
+Station.h:14:16: error: 'size_t' does not name a type
+         static size_t id_generator;
+                ^~~~~~
+Station.h:16:28: error: 'string' in namespace 'std' does not name a type
+         Station(const std::string &str);
+                            ^~~~~~
+Station.h:17:20: error: 'string' in namespace 'std' does not name a type
+         const std::string &getItemName() const;
+                    ^~~~~~
+Station.h:18:9: error: 'size_t' does not name a type
+         size_t getNextSerialNumber();
+         ^~~~~~
+Station.h:19:9: error: 'size_t' does not name a type
+         size_t getQuantity() const;
+         ^~~~~~
+Station.h:21:27: error: 'std::ostream' has not been declared
+         void display(std::ostream &os, bool full) const;
+                           ^~~~~~~
+Station.cpp:19:5: error: prototype for 'sdds::Station::Station(const string&)' does not match any in class 'sdds::Station'
+     Station::Station(const std::string &str)
+     ^~~~~~~
+In file included from Station.cpp:1:0:
+Station.h:6:11: error: candidates are: constexpr sdds::Station::Station(sdds::Station&&)
+     class Station
+           ^~~~~~~
+Station.h:6:11: error:                 constexpr sdds::Station::Station(const sdds::Station&)
+Station.h:16:9: error:                 sdds::Station::Station(const int&)
+         Station(const std::string &str);
+         ^~~~~~~
+Station.cpp:38:47: error: no 'const string& sdds::Station::getItemName() const' member function declared in class 'sdds::Station'
+     const std::string &Station::getItemName() const
+                                               ^~~~~
+Station.cpp:42:41: error: no 'size_t sdds::Station::getNextSerialNumber()' member function declared in class 'sdds::Station'
+     size_t Station::getNextSerialNumber()
+                                         ^
+Station.cpp:46:35: error: no 'size_t sdds::Station::getQuantity() const' member function declared in class 'sdds::Station'
+     size_t Station::getQuantity() const
+                                   ^~~~~
+Station.cpp: In member function 'void sdds::Station::updateQuantity()':
+Station.cpp:52:13: error: 'inStock' was not declared in this scope
+         if (inStock != 0)
+             ^~~~~~~
+Station.cpp: At global scope:
+Station.cpp:61:10: error: prototype for 'void sdds::Station::display(std::ostream&, bool) const' does not match any in class 'sdds::Station'
+     void Station::display(std::ostream &os, bool full) const
+          ^~~~~~~
+In file included from Station.cpp:1:0:
+Station.h:21:14: error: candidate is: void sdds::Station::display(int&, bool) const
+         void display(std::ostream &os, bool full) const;
+              ^~~~~~~
+Utilities.cpp: In static member function 'static void sdds::Utilities::setDelimiter(char)':
+Utilities.cpp:41:26: warning: NULL used in arithmetic [-Wpointer-arith]
+         if(newDelimiter!=NULL){
+                          ^~~~
